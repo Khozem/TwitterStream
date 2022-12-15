@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterStream", "TwitterStream\TwitterStream.csproj", "{AD4DA660-AF8D-40DC-9C28-AB9CED9B69AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStreamService", "TwitterStreamService\TwitterStreamService.csproj", "{58FBE554-C455-454C-BE45-A0BEF9160257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStreamData", "TwitterStreamData\TwitterStreamData.csproj", "{67E187FA-BD94-44C9-B054-7E2A081BB6A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterStreamExceptionHandling", "TwitterStreamExceptionHandling\TwitterStreamExceptionHandling.csproj", "{4380BE14-3CCB-4675-A985-66BC76060ABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD4DA660-AF8D-40DC-9C28-AB9CED9B69AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4DA660-AF8D-40DC-9C28-AB9CED9B69AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4DA660-AF8D-40DC-9C28-AB9CED9B69AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4DA660-AF8D-40DC-9C28-AB9CED9B69AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FBE554-C455-454C-BE45-A0BEF9160257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FBE554-C455-454C-BE45-A0BEF9160257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FBE554-C455-454C-BE45-A0BEF9160257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FBE554-C455-454C-BE45-A0BEF9160257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E187FA-BD94-44C9-B054-7E2A081BB6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E187FA-BD94-44C9-B054-7E2A081BB6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E187FA-BD94-44C9-B054-7E2A081BB6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E187FA-BD94-44C9-B054-7E2A081BB6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4380BE14-3CCB-4675-A985-66BC76060ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4380BE14-3CCB-4675-A985-66BC76060ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4380BE14-3CCB-4675-A985-66BC76060ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4380BE14-3CCB-4675-A985-66BC76060ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F1872DA-6C71-4147-BD0F-79B3970E72C6}
+	EndGlobalSection
+EndGlobal
